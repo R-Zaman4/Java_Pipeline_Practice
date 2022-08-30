@@ -1,7 +1,7 @@
 version: 0.1
 env:
     secrets-manager:
-      TOKEN: firstSecret:tokenForSonar
+      TOKEN: SonarCloud_Secret:SonarCloud_Token
 phases:
   build:
     commands:
